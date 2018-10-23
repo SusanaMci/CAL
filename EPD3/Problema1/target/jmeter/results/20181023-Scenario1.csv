@@ -1,0 +1,1183 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1540302474132,1184,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33607,916,5,5,https://www.zara.com/,97,0,66
+1540302474132,97,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,304,5,5,http://zara.com/,97,0,66
+1540302474233,891,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,304,5,5,https://zara.com/,891,0,863
+1540302475124,192,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33317,308,5,5,https://www.zara.com/,172,0,134
+1540302474132,1234,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33607,916,5,5,https://www.zara.com/,97,0,71
+1540302474132,97,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,304,5,5,http://zara.com/,97,0,71
+1540302474233,889,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,304,5,5,https://zara.com/,889,0,862
+1540302475122,244,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33317,308,5,5,https://www.zara.com/,214,0,164
+1540302474132,1239,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33607,916,5,5,https://www.zara.com/,117,0,82
+1540302474132,117,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,304,5,5,http://zara.com/,117,0,82
+1540302474250,860,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,304,5,5,https://zara.com/,860,0,839
+1540302475110,261,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33317,308,5,5,https://www.zara.com/,230,0,176
+1540302474132,1397,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33607,916,5,5,https://www.zara.com/,97,0,73
+1540302474132,97,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,304,5,5,http://zara.com/,97,0,73
+1540302474233,1154,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,304,5,5,https://zara.com/,1154,0,871
+1540302475388,141,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33317,308,5,5,https://www.zara.com/,117,0,85
+1540302474132,1424,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33607,916,5,5,https://www.zara.com/,97,0,66
+1540302474132,97,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,304,5,5,http://zara.com/,97,0,66
+1540302474233,1155,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,304,5,5,https://zara.com/,1155,0,870
+1540302475389,167,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33317,308,5,5,https://www.zara.com/,137,0,99
+1540302476377,198,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,52,0,24
+1540302476377,52,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,52,0,24
+1540302476430,145,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,143,0,24
+1540302476374,252,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,56,0,25
+1540302476374,56,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,56,0,25
+1540302476431,195,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,193,0,36
+1540302476532,250,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,49,0,22
+1540302476532,49,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,49,0,22
+1540302476582,200,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,200,0,23
+1540302476423,388,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10796,680,5,5,http://www.zara.com/test,46,0,21
+1540302476423,46,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,46,0,21
+1540302476470,341,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10646,342,5,5,http://www.zara.com/test,340,0,24
+1540302476578,303,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,35,0,15
+1540302476578,35,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,35,0,15
+1540302476614,99,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,99,0,58
+1540302476713,168,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,140,0,106
+1540302476599,300,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10796,680,5,5,http://www.zara.com/test,45,0,21
+1540302476599,45,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,45,0,21
+1540302476645,254,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10646,342,5,5,http://www.zara.com/test,252,0,27
+1540302476627,313,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,58,0,29
+1540302476627,58,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,58,0,29
+1540302476686,126,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,126,0,100
+1540302476812,128,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,109,0,77
+1540302476812,314,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,28
+1540302476812,57,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,57,0,28
+1540302476869,87,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,87,0,66
+1540302476956,170,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,138,0,98
+1540302476784,401,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,27
+1540302476784,57,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,57,0,27
+1540302476841,134,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,134,0,101
+1540302476975,210,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,171,0,121
+1540302476901,347,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,34,0,14
+1540302476901,34,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,34,0,14
+1540302476935,128,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,128,0,96
+1540302477064,184,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,150,0,108
+1540302477918,149,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,20,0,0
+1540302477918,20,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,20,0,0
+1540302477938,129,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,128,0,23
+1540302478006,243,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10796,680,5,5,http://www.zara.com/test,46,0,0
+1540302478006,46,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,46,0,0
+1540302478052,197,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10646,342,5,5,http://www.zara.com/test,194,0,37
+1540302478069,378,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,41,0,20
+1540302478069,41,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,41,0,20
+1540302478111,138,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,138,0,66
+1540302478250,197,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,166,0,115
+1540302478318,147,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,17,0,0
+1540302478318,17,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,17,0,0
+1540302478336,129,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,127,0,23
+1540302478274,280,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,29,0,0
+1540302478274,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302478303,251,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,250,0,37
+1540302478250,327,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,43,0,21
+1540302478250,43,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,43,0,21
+1540302478294,70,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,70,0,52
+1540302478365,212,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,172,0,125
+1540302478466,324,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,48,0,22
+1540302478466,48,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,48,0,22
+1540302478514,106,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,106,0,80
+1540302478620,170,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,143,0,105
+1540302478555,432,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,53,0,26
+1540302478555,53,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,53,0,26
+1540302478609,110,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,110,0,63
+1540302478719,268,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,235,0,121
+1540302479472,181,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302479472,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302479495,158,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,156,0,26
+1540302479675,239,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302479675,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302479700,214,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,211,0,31
+1540302479654,460,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,79,0,48
+1540302479654,79,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,79,0,48
+1540302479733,100,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,100,0,75
+1540302479833,281,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,197,0,72
+1540302479853,330,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,24,0,0
+1540302479853,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302479877,306,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,301,0,38
+1540302480010,373,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,82,0,0
+1540302480010,82,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,82,0,0
+1540302480092,291,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,289,0,30
+1540302479916,476,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,176,0,90
+1540302479916,176,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,176,0,90
+1540302480092,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,64,0,48
+1540302480156,236,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,214,0,88
+1540302478126,2290,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,28,0,0
+1540302478126,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302478154,2262,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,2252,0,2160
+1540302480184,455,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,31,0,14
+1540302480184,31,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,31,0,14
+1540302480215,210,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,210,0,177
+1540302480426,213,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,180,0,122
+1540302480384,335,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,63,0,36
+1540302480384,63,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,63,0,36
+1540302480448,101,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,101,0,76
+1540302480549,170,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33258,338,5,5,https://www.zara.com/,145,0,90
+1540302480417,491,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33549,1006,5,5,https://www.zara.com/,59,0,32
+1540302480417,59,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,59,0,32
+1540302480476,105,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,105,0,79
+1540302480581,327,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33259,338,5,5,https://www.zara.com/,292,0,102
+1540302481120,207,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10793,680,5,5,http://www.zara.com/test,29,0,0
+1540302481120,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302481150,177,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10643,342,5,5,http://www.zara.com/test,166,0,27
+1540302481328,247,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,29
+1540302481328,57,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,57,0,29
+1540302481385,61,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,61,0,46
+1540302481446,129,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,105,0,73
+1540302481434,184,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,29,0,0
+1540302481434,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302481463,155,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,153,0,39
+1540302481656,149,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,17,0,0
+1540302481656,17,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,17,0,0
+1540302481673,132,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,131,0,21
+1540302481771,169,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,20,0,0
+1540302481771,20,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,20,0,0
+1540302481791,149,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,147,0,23
+1540302481619,394,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,36,0,17
+1540302481619,36,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,36,0,17
+1540302481655,128,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,128,0,96
+1540302481783,230,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,178,0,125
+1540302481910,191,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,26,0,0
+1540302481910,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302481936,165,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,163,0,27
+1540302481807,321,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,46,0,21
+1540302481807,46,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,46,0,21
+1540302481853,137,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,137,0,101
+1540302481990,138,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,117,0,73
+1540302481941,386,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,73,0,39
+1540302481941,73,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,73,0,39
+1540302482014,102,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,102,0,77
+1540302482117,210,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,178,0,113
+1540302482102,275,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,43,0,19
+1540302482102,43,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,43,0,19
+1540302482145,75,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,75,0,56
+1540302482220,157,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,132,0,97
+1540302483112,133,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,20,0,0
+1540302483112,20,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,20,0,0
+1540302483132,113,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,111,0,24
+1540302483132,189,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302483132,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302483155,166,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,164,0,31
+1540302483356,167,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10794,680,5,5,http://www.zara.com/test,39,0,0
+1540302483356,39,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,39,0,0
+1540302483395,128,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10644,342,5,5,http://www.zara.com/test,125,0,34
+1540302483466,263,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10796,680,5,5,http://www.zara.com/test,66,0,0
+1540302483466,66,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,66,0,0
+1540302483532,197,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10646,342,5,5,http://www.zara.com/test,193,0,32
+1540302483247,537,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,44,0,21
+1540302483247,44,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,44,0,21
+1540302483291,84,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,84,0,63
+1540302483375,409,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,378,0,333
+1540302483524,283,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,42,0,19
+1540302483524,42,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,42,0,19
+1540302483566,72,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,72,0,53
+1540302483638,169,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,141,0,94
+1540302483322,514,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,44,0,20
+1540302483322,44,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,44,0,20
+1540302483366,341,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,341,0,74
+1540302483707,129,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,108,0,76
+1540302483730,298,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,66,0,31
+1540302483730,66,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,66,0,31
+1540302483796,99,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,99,0,73
+1540302483895,133,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,110,0,73
+1540302482644,2285,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302482644,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302482672,2257,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,2254,0,2088
+1540302484810,184,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10794,680,5,5,http://www.zara.com/test,28,0,0
+1540302484810,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302484838,156,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10644,342,5,5,http://www.zara.com/test,156,0,31
+1540302484873,190,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302484873,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302484896,167,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,164,0,20
+1540302485106,176,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,35,0,0
+1540302485106,35,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,35,0,0
+1540302485141,141,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,139,0,37
+1540302484930,381,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,97,0,80
+1540302484930,97,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,97,0,80
+1540302485028,119,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,119,0,93
+1540302485147,164,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,143,0,82
+1540302484913,505,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,325,0,0
+1540302484913,325,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,325,0,0
+1540302485238,180,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,179,0,39
+1540302485064,356,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,25
+1540302485064,57,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,57,0,25
+1540302485121,93,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,93,0,72
+1540302485214,206,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,122,0,77
+1540302484996,654,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,24
+1540302484996,64,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,64,0,24
+1540302485060,122,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,122,0,94
+1540302485182,468,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,140,0,92
+1540302485283,383,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,50,0,24
+1540302485283,50,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,50,0,24
+1540302485333,149,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,149,0,134
+1540302485482,184,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,153,0,110
+1540302485420,380,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,78,0,49
+1540302485420,78,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,78,0,49
+1540302485498,113,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,113,0,83
+1540302485611,189,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,154,0,111
+1540302486398,136,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302486398,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302486415,119,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,115,0,24
+1540302486516,247,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10796,680,5,5,http://www.zara.com/test,27,0,0
+1540302486516,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302486543,220,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10646,342,5,5,http://www.zara.com/test,217,0,22
+1540302486684,194,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,26,0,0
+1540302486684,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302486710,168,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,166,0,31
+1540302486535,398,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,53,0,27
+1540302486535,53,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,53,0,27
+1540302486588,100,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,100,0,75
+1540302486688,245,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,207,0,136
+1540302486763,221,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10796,680,5,5,http://www.zara.com/test,28,0,0
+1540302486763,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302486791,193,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10646,342,5,5,http://www.zara.com/test,191,0,25
+1540302486862,168,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,34,0,0
+1540302486862,34,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,34,0,0
+1540302486896,134,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,132,0,33
+1540302486764,320,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,56,0,28
+1540302486764,56,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,56,0,28
+1540302486821,91,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,91,0,66
+1540302486912,172,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,140,0,98
+1540302486879,317,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,51,0,24
+1540302486879,51,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,51,0,24
+1540302486930,61,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,61,0,45
+1540302486991,205,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,168,0,101
+1540302486985,380,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,46,0,22
+1540302486985,46,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,46,0,22
+1540302487031,125,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,125,0,70
+1540302487156,209,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,163,0,123
+1540302487031,412,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,47,0,22
+1540302487031,47,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,47,0,22
+1540302487079,141,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,141,0,111
+1540302487221,222,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,191,0,141
+1540302488029,183,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302488029,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302488054,158,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,156,0,28
+1540302488102,222,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,29,0,0
+1540302488102,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302488132,192,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,187,0,30
+1540302488241,191,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,30,0,0
+1540302488241,30,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,30,0,0
+1540302488271,161,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,158,0,35
+1540302488213,304,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,58,0,28
+1540302488213,58,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,58,0,28
+1540302488271,70,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,70,0,53
+1540302488342,175,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,143,0,105
+1540302488457,160,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302488457,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302488482,135,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,134,0,28
+1540302488470,151,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,24,0,0
+1540302488470,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302488494,127,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,125,0,31
+1540302488325,359,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,51,0,25
+1540302488325,51,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,51,0,25
+1540302488376,98,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,98,0,73
+1540302488474,210,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,171,0,123
+1540302488433,289,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,24
+1540302488433,54,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,54,0,24
+1540302488487,85,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,85,0,62
+1540302488572,150,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,123,0,89
+1540302488622,369,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,63,0,30
+1540302488622,63,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,63,0,30
+1540302488685,102,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,102,0,77
+1540302488787,204,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,175,0,92
+1540302488618,433,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,28
+1540302488618,54,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,54,0,28
+1540302488672,87,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,87,0,66
+1540302488759,292,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,227,0,88
+1540302489537,217,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,30,0,0
+1540302489537,30,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,30,0,0
+1540302489568,186,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,184,0,30
+1540302489769,141,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302489769,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302489794,116,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,112,0,26
+1540302489767,172,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302489767,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302489796,143,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,140,0,25
+1540302489755,377,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,75,0,42
+1540302489755,75,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,75,0,42
+1540302489831,91,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,91,0,68
+1540302489922,210,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,172,0,121
+1540302489911,280,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,36,0,16
+1540302489911,36,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,36,0,16
+1540302489947,82,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,82,0,60
+1540302490029,162,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,136,0,100
+1540302490088,128,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302490088,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302490111,105,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,100,0,22
+1540302490086,147,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,27,0,0
+1540302490086,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302490113,120,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,119,0,28
+1540302489941,315,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,46,0,22
+1540302489941,46,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,46,0,22
+1540302489987,133,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,133,0,100
+1540302490120,136,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,113,0,79
+1540302490217,324,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,65,0,32
+1540302490217,65,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,65,0,32
+1540302490282,71,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,71,0,48
+1540302490354,187,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,152,0,111
+1540302490234,336,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,21
+1540302490234,45,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,45,0,21
+1540302490279,98,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,98,0,68
+1540302490377,193,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,161,0,115
+1540302491180,151,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,33,0,0
+1540302491180,33,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,33,0,0
+1540302491213,118,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,116,0,26
+1540302491217,174,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302491217,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302491236,155,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,153,0,29
+1540302491276,135,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302491276,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302491300,111,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,108,0,27
+1540302491332,325,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,35,0,17
+1540302491332,35,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,35,0,17
+1540302491368,110,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,110,0,82
+1540302491478,179,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,147,0,102
+1540302491391,300,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,31,0,14
+1540302491391,31,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,31,0,14
+1540302491422,109,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,109,0,80
+1540302491531,160,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,136,0,88
+1540302491412,345,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,51,0,24
+1540302491412,51,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,51,0,24
+1540302491463,82,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,82,0,61
+1540302491546,211,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33258,338,5,5,https://www.zara.com/,177,0,105
+1540302491546,240,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,34,0,0
+1540302491546,34,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,34,0,0
+1540302491580,206,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,204,0,31
+1540302491643,170,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302491643,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302491668,145,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,141,0,33
+1540302491786,409,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,28
+1540302491786,57,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,57,0,28
+1540302491843,93,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,93,0,68
+1540302491936,259,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,227,0,136
+1540302491814,543,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,41,0,19
+1540302491814,41,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,41,0,19
+1540302491855,101,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,101,0,75
+1540302491957,400,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,362,0,199
+1540302492686,125,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,19,0,0
+1540302492686,19,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,19,0,0
+1540302492706,105,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,103,0,21
+1540302492715,254,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302492715,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302492734,235,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,232,0,67
+1540302492774,371,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,58,0,0
+1540302492774,58,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,58,0,0
+1540302492832,313,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,313,0,21
+1540302493254,152,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,26,0,0
+1540302493254,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302493281,125,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,120,0,27
+1540302492970,444,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,56,0,27
+1540302492970,56,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,56,0,27
+1540302493026,126,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,126,0,107
+1540302493152,262,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,221,0,148
+1540302493146,315,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,26
+1540302493146,54,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,54,0,26
+1540302493200,110,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,110,0,83
+1540302493310,151,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,121,0,86
+1540302492812,657,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,312,0,24
+1540302492812,312,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,312,0,24
+1540302493124,111,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,111,0,73
+1540302493235,234,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,211,0,147
+1540302493440,345,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,22,0,0
+1540302493440,22,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,22,0,0
+1540302493462,323,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,323,0,71
+1540302493407,674,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,375,0,42
+1540302493407,375,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,375,0,42
+1540302493782,78,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,78,0,62
+1540302493860,221,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,203,0,145
+1540302493787,403,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,72,0,39
+1540302493787,72,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,72,0,39
+1540302493859,141,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,141,0,122
+1540302494000,190,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,161,0,112
+1540302494462,153,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302494462,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302494490,125,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,105,0,20
+1540302494472,169,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,28,0,0
+1540302494472,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302494500,141,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,122,0,28
+1540302494522,146,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,27,0,0
+1540302494522,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302494549,119,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,112,0,21
+1540302494642,397,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,43,0,17
+1540302494642,43,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,43,0,17
+1540302494685,104,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,104,0,78
+1540302494789,250,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,249,0,79
+1540302494616,426,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,53,0,25
+1540302494616,53,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,53,0,25
+1540302494669,138,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,138,0,104
+1540302494807,235,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,200,0,84
+1540302494669,415,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,22
+1540302494669,45,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,45,0,22
+1540302494714,95,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,95,0,71
+1540302494810,274,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,247,0,172
+1540302495101,195,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,35,0,0
+1540302495101,35,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,35,0,0
+1540302495137,159,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,115,0,26
+1540302495261,256,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,66,0,0
+1540302495261,66,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,66,0,0
+1540302495328,189,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,131,0,32
+1540302495297,427,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,26
+1540302495297,54,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,54,0,26
+1540302495351,74,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,74,0,55
+1540302495426,298,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,268,0,198
+1540302495518,367,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,30,0,14
+1540302495518,30,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,30,0,14
+1540302495548,151,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,151,0,112
+1540302495700,185,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,153,0,102
+1540302496111,160,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302496111,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302496130,141,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,124,0,30
+1540302496129,211,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,24,0,0
+1540302496129,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302496153,187,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,167,0,20
+1540302496129,223,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10796,680,5,5,http://www.zara.com/test,26,0,0
+1540302496129,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302496155,197,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10646,342,5,5,http://www.zara.com/test,188,0,23
+1540302496272,341,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,80,0,44
+1540302496272,80,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,80,0,44
+1540302496353,108,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,108,0,82
+1540302496461,152,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,128,0,78
+1540302496341,296,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,24
+1540302496341,45,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,45,0,24
+1540302496387,75,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,75,0,56
+1540302496462,175,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,145,0,107
+1540302496353,359,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,66,0,32
+1540302496353,66,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,66,0,32
+1540302496419,102,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,102,0,76
+1540302496521,191,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33258,338,5,5,https://www.zara.com/,161,0,105
+1540302496819,201,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302496819,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302496847,173,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,164,0,64
+1540302496904,178,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302496904,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302496921,161,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,159,0,30
+1540302497022,376,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,32,0,16
+1540302497022,32,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,32,0,16
+1540302497054,130,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,130,0,98
+1540302497185,213,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,175,0,124
+1540302497083,324,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,31,0,14
+1540302497083,31,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,31,0,14
+1540302497114,129,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,129,0,94
+1540302497243,164,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,137,0,85
+1540302497731,238,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10794,680,5,5,http://www.zara.com/test,24,0,0
+1540302497731,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302497755,214,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10644,342,5,5,http://www.zara.com/test,210,0,30
+1540302497804,270,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,60,0,0
+1540302497804,60,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,60,0,0
+1540302497864,210,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,200,0,96
+1540302497633,558,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,24,0,0
+1540302497633,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302497657,534,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,533,0,38
+1540302497970,349,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,26
+1540302497970,52,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,52,0,26
+1540302498022,111,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,111,0,80
+1540302498133,186,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,155,0,111
+1540302498455,140,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,20,0,0
+1540302498455,20,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,20,0,0
+1540302498475,120,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,117,0,23
+1540302498192,428,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,56,0,24
+1540302498192,56,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,56,0,24
+1540302498249,89,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,89,0,65
+1540302498338,282,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,245,0,194
+1540302498075,546,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,44,0,20
+1540302498075,44,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,44,0,20
+1540302498119,81,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,81,0,57
+1540302498201,420,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,330,0,132
+1540302498474,182,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,19,0,0
+1540302498474,19,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,19,0,0
+1540302498493,163,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,161,0,33
+1540302498596,275,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,55,0,28
+1540302498596,55,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,55,0,28
+1540302498651,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,88,0,67
+1540302498739,132,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,108,0,76
+1540302498657,326,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,69,0,36
+1540302498657,69,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,69,0,36
+1540302498726,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,64,0,47
+1540302498791,192,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,160,0,108
+1540302499383,195,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,42,0,0
+1540302499383,42,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,42,0,0
+1540302499425,153,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,151,0,30
+1540302499681,136,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302499681,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302499704,113,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,111,0,26
+1540302499578,383,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,67,0,33
+1540302499578,67,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,67,0,33
+1540302499645,93,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,93,0,69
+1540302499738,223,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,195,0,152
+1540302499955,160,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302499955,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302499984,131,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,127,0,23
+1540302499818,414,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,21
+1540302499818,45,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,45,0,21
+1540302499863,116,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,116,0,90
+1540302499979,253,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,218,0,171
+1540302500116,355,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,35,0,17
+1540302500116,35,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,35,0,17
+1540302500152,131,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,131,0,96
+1540302500284,187,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,163,0,81
+1540302500028,586,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,358,0,0
+1540302500028,358,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,358,0,0
+1540302500386,228,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,226,0,92
+1540302501039,401,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,64,0,0
+1540302501039,64,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,64,0,0
+1540302501103,337,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,329,0,33
+1540302500615,835,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,339,0,61
+1540302500615,339,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,339,0,61
+1540302500954,287,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,287,0,271
+1540302501241,209,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,186,0,120
+1540302501309,220,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302501309,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302501338,191,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,180,0,31
+1540302501532,188,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,26,0,0
+1540302501532,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302501559,161,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,152,0,24
+1540302501441,385,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,71,0,37
+1540302501441,71,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,71,0,37
+1540302501513,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,88,0,67
+1540302501602,224,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,202,0,99
+1540302499700,2311,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302499700,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302499716,2295,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,2293,0,2096
+1540302501531,521,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,26
+1540302501531,52,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,52,0,26
+1540302501583,121,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,121,0,93
+1540302501705,347,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,230,0,182
+1540302501721,469,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,114,0,89
+1540302501721,114,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,114,0,89
+1540302501836,173,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,173,0,79
+1540302502009,181,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,158,0,110
+1540302502012,384,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,25
+1540302502012,52,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,52,0,25
+1540302502064,71,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,71,0,53
+1540302502135,261,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,228,0,120
+1540302502483,196,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,76,0,0
+1540302502483,76,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,76,0,0
+1540302502559,120,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,116,0,26
+1540302502843,203,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,34,0,0
+1540302502843,34,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,34,0,0
+1540302502877,169,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,166,0,30
+1540302502680,388,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,70,0,35
+1540302502680,70,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,70,0,35
+1540302502750,100,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,100,0,75
+1540302502850,218,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,216,0,78
+1540302503135,205,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,27,0,0
+1540302503135,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302503162,178,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,171,0,28
+1540302503225,167,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,24,0,0
+1540302503225,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302503249,143,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,133,0,23
+1540302503438,176,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,26,0,0
+1540302503438,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302503464,150,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,146,0,38
+1540302503046,570,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,269,0,19
+1540302503046,269,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,269,0,19
+1540302503315,116,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,116,0,88
+1540302503431,185,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,147,0,95
+1540302503341,291,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,33,0,16
+1540302503341,33,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,33,0,16
+1540302503374,104,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,104,0,78
+1540302503478,154,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,128,0,83
+1540302503392,348,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,48,0,23
+1540302503392,48,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,48,0,23
+1540302503440,109,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,109,0,82
+1540302503549,191,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33258,338,5,5,https://www.zara.com/,163,0,107
+1540302503615,625,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,25
+1540302503615,54,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,54,0,25
+1540302503669,79,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,79,0,58
+1540302503748,492,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,149,0,102
+1540302504092,201,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,36,0,0
+1540302504092,36,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,36,0,0
+1540302504128,165,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,122,0,27
+1540302504294,371,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,69,0,42
+1540302504294,69,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,69,0,42
+1540302504363,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,88,0,67
+1540302504451,214,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,181,0,125
+1540302504701,154,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,30,0,0
+1540302504701,31,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,30,0,0
+1540302504732,123,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,118,0,25
+1540302504730,235,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302504730,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302504748,217,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,217,0,33
+1540302504833,457,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,329,0,0
+1540302504833,329,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,329,0,0
+1540302505162,128,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,121,0,37
+1540302504856,497,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,124,0,95
+1540302504856,124,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,124,0,95
+1540302504980,187,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,187,0,127
+1540302505167,186,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,158,0,111
+1540302504966,435,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,53,0,24
+1540302504966,53,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,53,0,24
+1540302505019,152,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,152,0,131
+1540302505171,230,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,195,0,135
+1540302505332,205,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,39,0,0
+1540302505332,39,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,39,0,0
+1540302505371,166,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,161,0,31
+1540302505291,387,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,80,0,43
+1540302505291,80,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,80,0,43
+1540302505371,138,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,138,0,105
+1540302505509,169,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,144,0,99
+1540302505538,282,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,50,0,24
+1540302505538,50,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,50,0,24
+1540302505588,91,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,91,0,68
+1540302505679,141,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,120,0,81
+1540302505765,222,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,39,0,0
+1540302505765,39,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,39,0,0
+1540302505804,183,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,178,0,70
+1540302505988,347,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,57,0,31
+1540302505988,57,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,57,0,31
+1540302506045,75,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,75,0,55
+1540302506120,215,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,184,0,94
+1540302506402,215,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,31,0,0
+1540302506402,31,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,31,0,0
+1540302506433,184,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,179,0,20
+1540302506472,170,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,30,0,0
+1540302506472,30,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,30,0,0
+1540302506502,140,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,135,0,30
+1540302506759,167,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302506759,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302506782,144,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,130,0,22
+1540302506618,314,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,49,0,24
+1540302506618,49,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,49,0,24
+1540302506667,130,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,130,0,96
+1540302506797,135,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,111,0,73
+1540302506643,356,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,38,0,20
+1540302506643,38,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,38,0,20
+1540302506682,104,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,104,0,79
+1540302506786,213,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,176,0,125
+1540302506892,403,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,34,0,0
+1540302506892,34,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,34,0,0
+1540302506926,369,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,351,0,45
+1540302506927,372,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,55,0,25
+1540302506927,55,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,55,0,25
+1540302506982,111,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,111,0,86
+1540302507093,206,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,175,0,134
+1540302507357,196,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10796,680,5,5,http://www.zara.com/test,26,0,0
+1540302507357,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302507383,170,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10646,342,5,5,http://www.zara.com/test,166,0,26
+1540302507296,394,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,78,0,36
+1540302507296,78,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,78,0,36
+1540302507374,105,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,105,0,80
+1540302507479,211,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,180,0,126
+1540302507554,368,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,54,0,32
+1540302507554,54,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,54,0,32
+1540302507608,126,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,126,0,83
+1540302507734,188,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,156,0,112
+1540302507990,129,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302507990,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302508013,106,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,104,0,20
+1540302508042,154,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302508042,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302508060,136,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,134,0,30
+1540302508120,377,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,49,0,24
+1540302508120,49,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,49,0,24
+1540302508170,112,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,112,0,84
+1540302508282,215,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,134,0,95
+1540302508197,328,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,65,0,31
+1540302508197,65,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,65,0,31
+1540302508262,62,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,62,0,47
+1540302508324,201,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,176,0,98
+1540302508373,227,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,47,0,0
+1540302508373,47,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,47,0,0
+1540302508420,180,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,176,0,77
+1540302508751,205,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,35,0,0
+1540302508751,35,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,35,0,0
+1540302508786,170,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,166,0,51
+1540302508973,183,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,28,0,0
+1540302508973,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302509002,154,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,152,0,29
+1540302508608,569,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,292,0,23
+1540302508608,292,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,292,0,23
+1540302508900,91,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,91,0,67
+1540302508992,185,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,155,0,103
+1540302508956,345,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,32,0,14
+1540302508956,32,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,32,0,14
+1540302508988,133,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,133,0,98
+1540302509121,179,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,149,0,108
+1540302509156,419,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,48,0,26
+1540302509156,48,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,48,0,26
+1540302509204,108,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,108,0,80
+1540302509312,263,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,126,0,86
+1540302509524,165,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10794,680,5,5,http://www.zara.com/test,25,0,0
+1540302509524,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302509549,140,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10644,342,5,5,http://www.zara.com/test,137,0,38
+1540302509592,209,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10796,680,5,5,http://www.zara.com/test,35,0,0
+1540302509592,35,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,35,0,0
+1540302509627,174,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10646,342,5,5,http://www.zara.com/test,169,0,30
+1540302509690,361,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,100,0,71
+1540302509690,100,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,100,0,71
+1540302509790,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,64,0,49
+1540302509854,197,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,146,0,91
+1540302509802,358,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,62,0,31
+1540302509802,62,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,62,0,31
+1540302509864,81,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,81,0,56
+1540302509945,215,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33258,338,5,5,https://www.zara.com/,186,0,123
+1540302510238,157,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,30,0,0
+1540302510238,30,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,30,0,0
+1540302510268,127,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,124,0,23
+1540302510324,142,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,19,0,0
+1540302510324,19,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,19,0,0
+1540302510343,123,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,120,0,28
+1540302510396,370,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,49,0,24
+1540302510396,49,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,49,0,24
+1540302510445,103,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,103,0,77
+1540302510548,218,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,189,0,147
+1540302510642,177,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,50,0,0
+1540302510642,50,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,50,0,0
+1540302510692,127,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,114,0,26
+1540302510466,359,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,47,0,22
+1540302510466,47,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,47,0,22
+1540302510513,81,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,81,0,60
+1540302510595,230,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,197,0,149
+1540302510819,331,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,63,0,31
+1540302510819,63,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,63,0,31
+1540302510882,61,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,61,0,46
+1540302510943,207,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33258,338,5,5,https://www.zara.com/,178,0,91
+1540302511102,183,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,53,0,0
+1540302511102,53,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,53,0,0
+1540302511155,130,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,128,0,30
+1540302511211,177,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,29,0,0
+1540302511211,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302511240,148,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,146,0,45
+1540302511286,357,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,31
+1540302511286,64,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,64,0,31
+1540302511350,61,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,61,0,46
+1540302511411,232,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,151,0,111
+1540302511389,407,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,21
+1540302511389,45,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,45,0,21
+1540302511434,107,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,107,0,82
+1540302511541,255,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,218,0,167
+1540302511795,157,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302511795,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302511819,133,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,129,0,21
+1540302511888,193,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,69,0,0
+1540302511888,69,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,69,0,0
+1540302511957,124,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,122,0,29
+1540302511953,295,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,53,0,26
+1540302511953,53,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,53,0,26
+1540302512006,103,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,103,0,76
+1540302512109,139,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,114,0,81
+1540302512082,307,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,65,0,31
+1540302512082,65,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,65,0,31
+1540302512147,91,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,91,0,68
+1540302512238,151,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33258,338,5,5,https://www.zara.com/,131,0,76
+1540302512232,193,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,33,0,0
+1540302512232,33,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,33,0,0
+1540302512265,160,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,159,0,37
+1540302512426,265,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,43,0,20
+1540302512426,43,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,43,0,20
+1540302512469,65,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,65,0,45
+1540302512534,157,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,128,0,91
+1540302512697,141,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,33,0,0
+1540302512697,33,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,33,0,0
+1540302512730,108,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,106,0,20
+1540302512877,212,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10796,680,5,5,http://www.zara.com/test,23,0,0
+1540302512877,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302512900,189,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10646,342,5,5,http://www.zara.com/test,188,0,21
+1540302512838,379,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,26
+1540302512838,52,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,52,0,26
+1540302512890,134,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,134,0,97
+1540302513024,193,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,160,0,111
+1540302513090,322,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,22
+1540302513090,45,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,45,0,22
+1540302513135,82,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,82,0,61
+1540302513217,195,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,162,0,114
+1540302513340,159,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,27,0,0
+1540302513340,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302513367,132,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,125,0,32
+1540302513456,184,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,36,0,0
+1540302513456,36,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,36,0,0
+1540302513492,148,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,146,0,44
+1540302513499,335,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,26
+1540302513499,52,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,52,0,26
+1540302513551,99,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,99,0,76
+1540302513650,184,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,152,0,110
+1540302513730,167,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,22,0,0
+1540302513730,22,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,22,0,0
+1540302513752,145,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,139,0,27
+1540302513640,360,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,43,0,20
+1540302513640,43,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,43,0,20
+1540302513683,104,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,104,0,78
+1540302513787,213,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33258,338,5,5,https://www.zara.com/,181,0,111
+1540302513897,344,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,52,0,26
+1540302513897,52,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,52,0,26
+1540302513949,85,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,85,0,62
+1540302514034,207,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,151,0,108
+1540302514274,133,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,29,0,0
+1540302514274,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302514303,104,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,102,0,20
+1540302514438,151,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,21,0,0
+1540302514438,21,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,21,0,0
+1540302514459,130,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,128,0,26
+1540302514907,229,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,26,0,0
+1540302514907,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302514933,203,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,201,0,28
+1540302515045,194,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,33,0,0
+1540302515045,33,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,33,0,0
+1540302515078,161,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,152,0,30
+1540302515327,171,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,27,0,0
+1540302515327,27,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,27,0,0
+1540302515354,144,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,141,0,40
+1540302514590,1000,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,43,0,21
+1540302514590,43,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,43,0,21
+1540302514633,107,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,107,0,70
+1540302514740,850,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,821,0,761
+1540302514408,1273,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,46,0,25
+1540302514408,46,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,46,0,25
+1540302514454,122,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,122,0,93
+1540302514576,1105,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33258,338,5,5,https://www.zara.com/,1064,0,933
+1540302515139,755,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,62,0,23
+1540302515139,62,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,62,0,23
+1540302515201,99,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,99,0,76
+1540302515301,593,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,561,0,451
+1540302515240,695,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,32
+1540302515240,64,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,64,0,32
+1540302515305,80,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,80,0,62
+1540302515385,550,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,515,0,418
+1540302515499,720,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,45,0,20
+1540302515499,45,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,45,0,20
+1540302515545,143,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,143,0,104
+1540302515688,531,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33258,338,5,5,https://www.zara.com/,497,0,368
+1540302516679,227,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,42,0,23
+1540302516679,42,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,42,0,23
+1540302516721,185,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,183,0,22
+1540302516691,482,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10794,680,5,5,http://www.zara.com/test,294,0,28
+1540302516691,294,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,294,0,28
+1540302516985,188,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10644,342,5,5,http://www.zara.com/test,187,0,38
+1540302517008,179,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,38,0,0
+1540302517008,38,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,38,0,0
+1540302517046,141,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,138,0,35
+1540302516952,284,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10796,680,5,5,http://www.zara.com/test,23,0,0
+1540302516952,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302516975,261,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10646,342,5,5,http://www.zara.com/test,260,0,31
+1540302516907,375,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,36,0,16
+1540302516907,36,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,36,0,16
+1540302516943,143,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,143,0,105
+1540302517086,196,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,147,0,116
+1540302517295,360,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,187,0,0
+1540302517295,187,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,187,0,0
+1540302517483,172,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,170,0,32
+1540302517174,684,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,101,0,33
+1540302517174,101,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,101,0,33
+1540302517275,297,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,297,0,271
+1540302517572,286,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,190,0,132
+1540302517188,670,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,46,0,21
+1540302517188,46,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,46,0,21
+1540302517234,302,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,302,0,279
+1540302517537,321,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,221,0,134
+1540302517237,699,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,283,0,245
+1540302517237,283,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,283,0,245
+1540302517520,105,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,105,0,75
+1540302517625,311,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,239,0,134
+1540302517656,548,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,83,0,24
+1540302517656,83,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,83,0,24
+1540302517739,203,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,203,0,181
+1540302517942,262,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,228,0,189
+1540302518366,1361,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,203,0,0
+1540302518366,203,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,203,0,0
+1540302518569,1158,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,1156,0,75
+1540302518921,864,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,727,0,0
+1540302518921,727,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,727,0,0
+1540302519648,137,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,130,0,32
+1540302518880,907,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,775,0,0
+1540302518880,775,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,775,0,0
+1540302519655,132,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,132,0,26
+1540302519277,525,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,375,0,0
+1540302519277,375,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,375,0,0
+1540302519653,149,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,147,0,37
+1540302519032,806,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,629,0,0
+1540302519032,629,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,629,0,0
+1540302519661,177,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,175,0,33
+1540302519728,358,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,26
+1540302519728,64,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,64,0,26
+1540302519792,155,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,155,0,104
+1540302519947,139,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,116,0,83
+1540302519786,368,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,60,0,24
+1540302519786,60,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,60,0,24
+1540302519846,129,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,129,0,101
+1540302519975,179,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,135,0,88
+1540302519795,369,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,38,0,14
+1540302519795,38,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,38,0,14
+1540302519833,131,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,131,0,90
+1540302519964,200,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,165,0,112
+1540302519803,404,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,56,0,24
+1540302519803,56,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,56,0,24
+1540302519859,146,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,146,0,112
+1540302520005,202,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,172,0,121
+1540302519839,416,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,51,0,26
+1540302519839,51,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,51,0,26
+1540302519890,177,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,177,0,143
+1540302520067,188,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,163,0,125
+1540302521103,198,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,32,0,0
+1540302521103,32,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,32,0,0
+1540302521135,166,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,164,0,38
+1540302521183,151,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302521183,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302521199,135,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,134,0,32
+1540302521223,156,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,26,0,0
+1540302521223,26,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,26,0,0
+1540302521249,130,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,125,0,30
+1540302521173,280,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,68,0,0
+1540302521173,68,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,68,0,0
+1540302521241,212,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,210,0,31
+1540302521277,191,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10796,680,5,5,http://www.zara.com/test,24,0,0
+1540302521277,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302521301,167,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10646,342,5,5,http://www.zara.com/test,165,0,25
+1540302521335,257,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,30,0,14
+1540302521335,30,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,30,0,14
+1540302521365,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,88,0,64
+1540302521453,139,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,117,0,82
+1540302521302,339,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,50,0,25
+1540302521302,50,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,50,0,25
+1540302521352,165,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,165,0,113
+1540302521517,124,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,105,0,71
+1540302521379,273,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,32,0,16
+1540302521379,32,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,32,0,16
+1540302521411,113,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,113,0,85
+1540302521524,128,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,107,0,74
+1540302521469,377,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,66,0,32
+1540302521469,66,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,66,0,32
+1540302521535,77,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,77,0,57
+1540302521612,234,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,206,0,155
+1540302521454,454,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,69,0,34
+1540302521454,69,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,69,0,34
+1540302521523,103,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,103,0,75
+1540302521626,282,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,249,0,205
+1540302522646,148,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302522646,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302522664,130,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,128,0,27
+1540302522729,157,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302522729,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302522745,141,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,139,0,23
+1540302522736,164,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,29,0,0
+1540302522736,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302522765,135,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,133,0,30
+1540302522866,187,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,49,0,0
+1540302522866,49,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,49,0,0
+1540302522915,138,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,136,0,38
+1540302522901,250,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,31,0,14
+1540302522901,31,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,31,0,14
+1540302522932,60,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,60,0,45
+1540302522993,158,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,130,0,96
+1540302522886,292,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,22
+1540302522886,45,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,45,0,22
+1540302522932,72,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,72,0,50
+1540302523004,174,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,142,0,99
+1540302522795,385,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,88,0,16
+1540302522795,88,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,88,0,16
+1540302522883,113,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,113,0,85
+1540302522996,184,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,157,0,107
+1540302523003,278,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10796,680,5,5,http://www.zara.com/test,32,0,0
+1540302523003,32,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,32,0,0
+1540302523035,246,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10646,342,5,5,http://www.zara.com/test,244,0,26
+1540302523053,359,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,45,0,22
+1540302523053,45,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,45,0,22
+1540302523098,89,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,89,0,68
+1540302523187,225,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,186,0,132
+1540302523282,332,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,30,0,14
+1540302523282,30,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,30,0,14
+1540302523312,110,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,110,0,81
+1540302523422,192,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33258,338,5,5,https://www.zara.com/,162,0,106
+1540302524193,171,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10796,680,5,5,http://www.zara.com/test,16,0,0
+1540302524193,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302524209,155,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10646,342,5,5,http://www.zara.com/test,153,0,20
+1540302524236,155,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,23,0,0
+1540302524236,23,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,23,0,0
+1540302524259,132,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,122,0,30
+1540302524280,187,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,17,0,0
+1540302524280,17,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,17,0,0
+1540302524297,170,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,168,0,25
+1540302524494,136,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,24,0,0
+1540302524494,24,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,24,0,0
+1540302524519,111,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,109,0,20
+1540302524365,269,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,56,0,26
+1540302524365,56,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,56,0,26
+1540302524421,73,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,73,0,53
+1540302524494,140,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,119,0,81
+1540302524392,349,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,31
+1540302524392,64,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,64,0,31
+1540302524456,98,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,98,0,73
+1540302524554,187,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,159,0,97
+1540302524699,135,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,16,0,0
+1540302524699,16,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,16,0,0
+1540302524715,119,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,116,0,28
+1540302524468,387,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,39,0,18
+1540302524468,39,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,39,0,18
+1540302524508,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,88,0,65
+1540302524596,259,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33258,338,5,5,https://www.zara.com/,222,0,123
+1540302524630,330,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,35,0,16
+1540302524630,35,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,35,0,16
+1540302524665,109,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,109,0,80
+1540302524774,186,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,150,0,101
+1540302524834,329,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,65,0,32
+1540302524834,65,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,65,0,32
+1540302524899,88,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,88,0,68
+1540302524987,176,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,149,0,93
+1540302525731,219,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,68,0,0
+1540302525731,68,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,68,0,0
+1540302525799,151,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,145,0,38
+1540302525873,159,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,22,0,0
+1540302525873,22,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,22,0,0
+1540302525896,136,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,134,0,25
+1540302525830,343,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10796,680,5,5,http://www.zara.com/test,45,0,0
+1540302525830,45,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,45,0,0
+1540302525875,298,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10646,342,5,5,http://www.zara.com/test,296,0,32
+1540302525974,270,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,74,0,0
+1540302525974,74,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,74,0,0
+1540302526048,196,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,195,0,48
+1540302526249,227,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,75,0,0
+1540302526249,75,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,75,0,0
+1540302526324,152,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,149,0,38
+1540302526033,493,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,138,0,63
+1540302526033,138,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,138,0,63
+1540302526171,167,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,167,0,146
+1540302526338,188,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,156,0,103
+1540302526174,378,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,127,0,67
+1540302526174,127,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,127,0,67
+1540302526301,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,64,0,48
+1540302526365,187,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,159,0,111
+1540302525951,644,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,145,0,78
+1540302525951,145,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,145,0,78
+1540302526096,267,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,267,0,235
+1540302526363,232,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,187,0,116
+1540302526245,495,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,87,0,66
+1540302526245,87,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,87,0,66
+1540302526332,74,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,74,0,46
+1540302526407,333,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,242,0,137
+1540302526477,508,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,36,0,14
+1540302526477,36,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,36,0,14
+1540302526513,257,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,257,0,218
+1540302526770,215,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,189,0,150
+1540302527607,150,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,36,0,0
+1540302527607,36,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,36,0,0
+1540302527643,114,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,112,0,25
+1540302527644,139,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,25,0,0
+1540302527644,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302527669,114,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,111,0,26
+1540302527628,279,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10796,680,5,5,http://www.zara.com/test,40,0,0
+1540302527628,40,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,40,0,0
+1540302527668,239,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10646,342,5,5,http://www.zara.com/test,237,0,30
+1540302528017,147,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,17,0,0
+1540302528017,17,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,17,0,0
+1540302528034,130,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,128,0,21
+1540302527757,414,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,65,0,32
+1540302527757,65,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,65,0,32
+1540302527823,164,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,164,0,140
+1540302527988,183,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,151,0,103
+1540302527908,328,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,50,0,24
+1540302527908,50,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,50,0,24
+1540302527958,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,64,0,47
+1540302528022,214,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,174,0,122
+1540302527784,616,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,303,0,26
+1540302527784,303,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,303,0,26
+1540302528087,113,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,113,0,84
+1540302528200,200,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,169,0,124
+1540302528165,418,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,33,0,16
+1540302528165,33,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,33,0,16
+1540302528198,113,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,113,0,85
+1540302528311,272,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33258,338,5,5,https://www.zara.com/,241,0,137
+1540302529185,277,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10793,680,5,5,http://www.zara.com/test,103,0,0
+1540302529185,103,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,103,0,0
+1540302529288,174,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10643,342,5,5,http://www.zara.com/test,172,0,69
+1540302529310,258,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,71,0,0
+1540302529310,71,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,71,0,0
+1540302529381,187,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,183,0,27
+1540302529475,216,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10794,680,5,5,http://www.zara.com/test,32,0,0
+1540302529475,32,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,32,0,0
+1540302529507,184,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10644,342,5,5,http://www.zara.com/test,181,0,81
+1540302529606,151,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10794,680,5,5,http://www.zara.com/test,19,0,0
+1540302529606,19,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,19,0,0
+1540302529625,132,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10644,342,5,5,http://www.zara.com/test,129,0,33
+1540302529568,302,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,61,0,29
+1540302529568,61,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,61,0,29
+1540302529629,64,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,64,0,45
+1540302529693,177,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,146,0,104
+1540302527790,2191,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10794,680,5,5,http://www.zara.com/test,25,0,0
+1540302527790,25,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,25,0,0
+1540302527815,2166,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10644,342,5,5,http://www.zara.com/test,2165,0,2070
+1540302529758,271,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,38,0,18
+1540302529758,38,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,38,0,18
+1540302529796,102,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,102,0,76
+1540302529898,131,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,111,0,73
+1540302529462,568,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,297,0,26
+1540302529462,297,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,297,0,26
+1540302529759,115,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,115,0,84
+1540302529874,156,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,129,0,88
+1540302529692,437,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33548,1006,5,5,https://www.zara.com/,54,0,25
+1540302529692,54,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,54,0,25
+1540302529747,132,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,132,0,95
+1540302529879,250,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33258,338,5,5,https://www.zara.com/,210,0,122
+1540302529982,361,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,64,0,31
+1540302529982,64,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,64,0,31
+1540302530046,63,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,63,0,44
+1540302530109,234,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,202,0,156
+1540302530874,184,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10794,680,5,5,http://www.zara.com/test,28,0,0
+1540302530874,28,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,28,0,0
+1540302530902,156,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10644,342,5,5,http://www.zara.com/test,154,0,44
+1540302531075,274,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10796,680,5,5,http://www.zara.com/test,38,0,0
+1540302531075,38,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,38,0,0
+1540302531113,236,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10646,342,5,5,http://www.zara.com/test,234,0,29
+1540302531089,263,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10796,680,5,5,http://www.zara.com/test,94,0,0
+1540302531089,94,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,94,0,0
+1540302531183,169,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10646,342,5,5,http://www.zara.com/test,167,0,21
+1540302531059,580,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,99,0,65
+1540302531059,99,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,99,0,65
+1540302531158,127,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,127,0,95
+1540302531285,354,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,312,0,219
+1540302531441,298,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,157,0,0
+1540302531441,157,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,157,0,0
+1540302531598,141,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,139,0,46
+1540302531350,556,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,290,0,27
+1540302531350,290,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,290,0,27
+1540302531640,60,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,60,0,45
+1540302531700,206,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,168,0,102
+1540302531352,577,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,277,0,22
+1540302531352,277,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,277,0,22
+1540302531629,130,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,130,0,97
+1540302531759,170,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,146,0,79
+1540302531223,796,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,29,0,0
+1540302531223,29,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,29,0,0
+1540302531253,766,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,400,0,28
+1540302531740,414,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,55,0,26
+1540302531740,55,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,55,0,26
+1540302531795,110,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,110,0,73
+1540302531905,249,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,220,0,99
+1540302532019,485,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,139,0,113
+1540302532019,139,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,5,5,http://zara.com/,139,0,113
+1540302532158,87,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,5,5,https://zara.com/,87,0,64
+1540302532245,259,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,5,5,https://www.zara.com/,233,0,180
+1540302532686,193,Page Returning 404,404,Not Found,Scenario 1 1-3,text,true,,10795,680,5,5,http://www.zara.com/test,42,0,0
+1540302532686,42,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-3,,true,,150,338,5,5,http://zara.com/test,42,0,0
+1540302532728,151,Page Returning 404-1,404,Not Found,Scenario 1 1-3,text,false,,10645,342,5,5,http://www.zara.com/test,149,0,28
+1540302532932,139,Page Returning 404,404,Not Found,Scenario 1 1-4,text,true,,10795,680,5,5,http://www.zara.com/test,18,0,0
+1540302532932,18,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-4,,true,,150,338,5,5,http://zara.com/test,18,0,0
+1540302532950,121,Page Returning 404-1,404,Not Found,Scenario 1 1-4,text,false,,10645,342,5,5,http://www.zara.com/test,119,0,23
+1540302532930,157,Page Returning 404,404,Not Found,Scenario 1 1-2,text,true,,10795,680,5,5,http://www.zara.com/test,37,0,0
+1540302532930,37,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-2,,true,,150,338,5,5,http://zara.com/test,37,0,0
+1540302532967,120,Page Returning 404-1,404,Not Found,Scenario 1 1-2,text,false,,10645,342,5,5,http://www.zara.com/test,117,0,27
+1540302532880,366,Home Page,200,OK,Scenario 1 1-3,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,32,0,14
+1540302532880,32,Home Page-0,301,Moved Permanently,Scenario 1 1-3,,true,,143,334,5,5,http://zara.com/,32,0,14
+1540302532912,126,Home Page-1,302,Moved Temporarily,Scenario 1 1-3,,true,,147,334,5,5,https://zara.com/,126,0,93
+1540302533038,208,Home Page-2,200,OK,Scenario 1 1-3,text,true,,33257,338,5,5,https://www.zara.com/,170,0,120
+1540302533165,160,Page Returning 404,404,Not Found,Scenario 1 1-1,text,true,,10795,680,5,5,http://www.zara.com/test,35,0,0
+1540302533165,35,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-1,,true,,150,338,5,5,http://zara.com/test,35,0,0
+1540302533200,125,Page Returning 404-1,404,Not Found,Scenario 1 1-1,text,false,,10645,342,5,5,http://www.zara.com/test,124,0,32
+1540302533071,306,Home Page,200,OK,Scenario 1 1-4,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,40,0,17
+1540302533071,40,Home Page-0,301,Moved Permanently,Scenario 1 1-4,,true,,143,334,5,5,http://zara.com/,40,0,17
+1540302533111,60,Home Page-1,302,Moved Temporarily,Scenario 1 1-4,,true,,147,334,5,5,https://zara.com/,60,0,44
+1540302533171,206,Home Page-2,200,OK,Scenario 1 1-4,text,true,,33257,338,5,5,https://www.zara.com/,144,0,105
+1540302533087,349,Home Page,200,OK,Scenario 1 1-2,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,55,0,27
+1540302533087,55,Home Page-0,301,Moved Permanently,Scenario 1 1-2,,true,,143,334,5,5,http://zara.com/,55,0,27
+1540302533142,81,Home Page-1,302,Moved Temporarily,Scenario 1 1-2,,true,,147,334,5,5,https://zara.com/,81,0,50
+1540302533223,213,Home Page-2,200,OK,Scenario 1 1-2,text,true,,33257,338,5,5,https://www.zara.com/,181,0,100
+1540302533326,364,Home Page,200,OK,Scenario 1 1-1,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,5,5,https://www.zara.com/,115,0,50
+1540302533326,115,Home Page-0,301,Moved Permanently,Scenario 1 1-1,,true,,143,334,5,5,http://zara.com/,115,0,50
+1540302533441,69,Home Page-1,302,Moved Temporarily,Scenario 1 1-1,,true,,147,334,5,5,https://zara.com/,69,0,50
+1540302533510,180,Home Page-2,200,OK,Scenario 1 1-1,text,true,,33257,338,5,5,https://www.zara.com/,146,0,105
+1540302533567,140,Page Returning 404,404,Not Found,Scenario 1 1-5,text,true,,10795,680,5,5,http://www.zara.com/test,20,0,0
+1540302533567,20,Page Returning 404-0,302,Moved Temporarily,Scenario 1 1-5,,true,,150,338,5,5,http://zara.com/test,20,0,0
+1540302533587,120,Page Returning 404-1,404,Not Found,Scenario 1 1-5,text,false,,10645,342,5,5,http://www.zara.com/test,118,0,20
+1540302533707,360,Home Page,200,OK,Scenario 1 1-5,text,false,Test failed: text expected to contain /<h1>Example Domain</h1>/,33547,1006,1,1,https://www.zara.com/,51,0,25
+1540302533707,51,Home Page-0,301,Moved Permanently,Scenario 1 1-5,,true,,143,334,1,1,http://zara.com/,51,0,25
+1540302533758,82,Home Page-1,302,Moved Temporarily,Scenario 1 1-5,,true,,147,334,1,1,https://zara.com/,82,0,60
+1540302533840,227,Home Page-2,200,OK,Scenario 1 1-5,text,true,,33257,338,1,1,https://www.zara.com/,188,0,139

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>es.upo.qa</groupId>
+	<artifactId>Problema1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
+
+	<name>Problema1</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	
+		<url>zara.com</url>
+		<delay>2</delay>
+		<users>5</users>
+		<iterations>2</iterations>
+		
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>Scenario1</id>
+			<activation>
+            <activeByDefault>false</activeByDefault>
+        </activation>
+			<properties>
+				<delay>5</delay>
+			</properties>
+			</profile>
+			
+
+		<profile>
+			<id>Scenario2</id>
+			 <activation>
+            <activeByDefault>false</activeByDefault>
+        </activation>
+			<properties>
+				<delay>5</delay>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>Scenario3</id>
+			 <activation>
+            <activeByDefault>false</activeByDefault>
+        </activation>
+			<properties>
+				<delay>5</delay>
+			</properties>
+		</profile>
+	</profiles>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+
+	<plugins>
+
+
+  <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+            <fork>true</fork>
+            <executable>C:\Program Files\Java\jdk1.8.0_152\bin\javac.exe</executable>
+        </configuration>
+    </plugin>
+
+				<plugin>
+					<groupId>com.lazerycode.jmeter</groupId>
+					<artifactId>jmeter-maven-plugin</artifactId>
+					<version>2.8.0</version>
+					<executions>
+						<!-- Run JMeter tests -->
+						<execution>
+							<id>jmeter-tests</id>
+							<goals>
+								<goal>jmeter</goal>
+							</goals>
+							<phase>verify</phase>
+						</execution>
+						<!-- Fail build on errors in test -->
+						<execution>
+							<id>jmeter-check-results</id>
+							<goals>
+								<goal>results</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<input>${basedir}\src\test\jmeter\Scenario1.jmx</input>
+<!-- 						<input>${basedir}\src\test\jmeter\Scenario2.jmx</input> -->
+<!-- 						<input>${basedir}\src\test\jmeter\Scenario3.jmx</input> -->
+						<resultsDirectory>${basedir}\target\jmeter\results\</resultsDirectory>
+					</configuration>
+				</plugin>
+
+				<!-- <plugin> -->
+				<!-- <groupId>de.codecentric</groupId> -->
+				<!-- <artifactId>jmeter-graph-maven-plugin</artifactId> -->
+				<!-- <version>0.1.0</version> -->
+				<!-- <configuration> -->
+				<!-- <inputFile>${project.build.directory}\jmeter\results\Summary.jtl</inputFile> -->
+				<!-- <graphs> -->
+				<!-- <graph> -->
+				<!-- <pluginType>ThreadsStateOverTime</pluginType> -->
+				<!-- <width>800</width> -->
+				<!-- <height>600</height> -->
+				<!-- <outputFile>${project.build.directory}\jmeter\results\SimpleWebservicePerformanceTest-ThreadsStateOverTime.png</outputFile> -->
+				<!-- </graph> -->
+				<!-- ... you can declare more <graph>-elements here -->
+				<!-- </graphs> -->
+				<!-- </configuration> -->
+				<!-- </plugin> -->
+
+			</plugins>
+		
+		<testResources>
+			<testResource>
+
+				<!-- Directorio donde se guardara el jmx sin parsear -->
+				<directory>${basedir}\src\test\resources\</directory>
+				<filtering>true</filtering>
+				<!-- Directorio donde se guardara el jmx parseado -->
+				<targetPath>${basedir}\src\test\jmeter\</targetPath>
+			</testResource>
+		</testResources>
+	</build>
+</project>
